@@ -1,0 +1,13 @@
+/* Minimal styles for the wheel UI */
+body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial; background: #f7f7f7; margin: 0; padding: 40px; color: #222; }
+.container { max-width: 700px; margin: 0 auto; text-align: center; }
+h1 { margin-bottom: 12px; }
+.wheel { width: 220px; height: 220px; border-radius: 50%; background: #fff; margin: 18px auto; display: flex; align-items: center; justify-content: center; box-shadow: 0 6px 18px rgba(0,0,0,0.08); transition: transform 1s cubic-bezier(.2,.9,.2,1); }
+.display { font-size: 18px; font-weight: 600; padding: 18px; border-radius: 6px; }
+button#spin { margin-top: 8px; padding: 10px 16px; font-size: 16px; cursor: pointer; }
+.detail { margin-top: 12px; min-height: 28px; }
+.history { margin-top: 18px; font-size: 14px; color: #444; }
+.status { margin-top: 6px; font-size: 13px; color: #555; }
+
+/* small responsive */
+@media (max-width:420px){ .wheel{ width:180px;height:180px } }
