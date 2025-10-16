@@ -1,0 +1,65 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f6f6fa;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #ed5e82;
+    color: white;
+    padding: 2em 1em;
+    text-align: center;
+}
+#album-list {
+    margin: 2em auto 1em auto;
+    text-align: center;
+}
+.album-btn {
+    background: #fff;
+    border: 2px solid #ed5e82;
+    color: #ed5e82;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.album-btn.active {
+    background: #ed5e82;
+    color: #fff;
+}
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    margin: 2em auto;
+}
+.gallery-item {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 1em;
+    width: 250px;
+    text-align: center;
+}
+.gallery-thumb {
+    max-width: 100%;
+    border-radius: 5px;
+}
+.item-title {
+    font-weight: bold;
+    margin: 0.5em 0 0.25em 0;
+}
+.item-desc {
+    font-size: 0.9em;
+    color: #6e3950;
+    margin-bottom: 0.5em;
+}
+.share-btn {
+    background: #ed5e82;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 0.35em 0.75em;
+    cursor: pointer;
+}
