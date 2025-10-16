@@ -1,4 +1,4 @@
-// script.js - simple spin-the-wheel that picks color + style
+// script.js - simple spin-the-wheel that picks color + style + prints + patterns
 console.log('script.js loaded');
 const wheel = document.getElementById('wheel');
 const display = document.getElementById('display');
@@ -49,3 +49,4 @@ spinBtn.addEventListener('click', spin);
 
 // small init
 display.textContent = '—';
+
